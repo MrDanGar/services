@@ -22,7 +22,7 @@ jobs:
       mongodb:
         image: mongo
         #port only if job not in container
-        port: 
+        ports: 
           - 27017:27017
         env:
           MONGO_INITDB_ROOT_USERNAME: root
